@@ -1,0 +1,246 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #393e41;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+#navbarSupportedContent > ul > li a {
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: #006d9b;
+}
+
+.btn-outline-primary{
+  color: #006d9b;
+  border-color: #006d9b;
+}
+
+.btn-outline-primary:hover{
+  background-color: #006d9b;
+  border-color: #006d9b;
+}
+
+.btn-primary{
+  background-color: #006d9b;
+  border-color: #006d9b;
+  padding: 12px 45px;
+}
+
+.btn-primary:hover{
+  background-color: #006d9b;
+  border-color: #006d9b;
+}
+
+.btn-secondary{
+  padding: 12px 45px;
+
+}
+
+.sectionPadding{
+  padding: 90px 0;
+}
+
+.sectionTitle{
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sectionTitle::after{
+    content: "";
+    width: 5%;
+    height: 3px;
+    background-color: #006d9b;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+
+}
+p{
+  color: #74848b;
+}
+a{
+  color: #006d9b;
+}
+
+/* header */
+body > header > nav > div > a > img {
+    width: 260px;
+}
+
+/* banner */
+.carousel-caption.d-none.d-md-block {
+    top: 50%;
+    transform: translateY(-80%);
+    text-align: left;
+}
+
+
+#homeBanner .title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#homeBanner .description{
+  font-size: 18px;
+  line-height: 27px;
+}
+#homeBanner p{
+  color: #ffffff;
+}
+
+#homeBanner > div.carousel-inner > div.carousel-item.active > div > a.btn{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+/* about */
+.about {
+
+  background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 50px;
+}
+
+.about h1{
+    text-align: center;
+    color: #006d9b;
+}
+
+/* icon box */
+.icon_box{
+  text-align: center;
+}
+  .icon{
+    font-size: 54px;
+  }
+
+.icon_box h2{
+  color: #006d9b;
+}
+
+body > section.aboutSection.sectionPadding.container > div:nth-child(3) > a{
+
+    width: 50%;
+    margin: auto;
+}
+
+body > section.container.sectionPadding.detailsSection > div > div:nth-child(1) > ul{
+  padding: 30px 50px;
+}
+
+body > section.container.sectionPadding.detailsSection > div > div:nth-child(2) > p{
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.bg-color{
+  background-color: #f5f5f5;
+}
+
+
+/* about page */
+.pageTitle_bg{
+  background-color: #006d9b;
+}
+
+.pageTitle{
+  padding: 90px 0;
+}
+.pageTitle h1{
+  color: #fff;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.pageTitle h1::after{
+    content: "";
+    width: 5%;
+    height: 3px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+.aboutPage > main > section > div > div > h5 {
+    font-size: 22px;
+    max-width: 820px;
+    margin-top: 20px;
+}
+
+.listTitle{
+  position: relative;
+}
+.listTitle::after{
+  content: "";
+    width: 5%;
+    height: 3px;
+    background-color: #006d9b;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.topicList li{
+  padding: 10px 0;
+}
+
+
+/* footer */
+footer{
+  background-color: #2a2e2f;
+  color: #d6d6d6;
+  padding: 90px 0;
+}
+
+footer .logo {
+    width: 260px;
+    margin-bottom: 20px;
+} 
+
+footer a{
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+footer ul li{
+  padding: 10px 0;
+}
+
+footer a span{
+  padding-right: 20px;
+}
